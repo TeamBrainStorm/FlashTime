@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flashcards="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_new_deck"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_new_deck"/>
+
+</menu>

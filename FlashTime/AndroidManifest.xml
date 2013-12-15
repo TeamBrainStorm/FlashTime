@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.d4a.flashtime"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.cmu.hcii.ssui.flashcards.CardListActivity"
+            android:parentActivityName="edu.cmu.hcii.ssui.flashcards.StudyListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.cmu.hcii.ssui.flashcards.StudyListActivity" />
+        </activity>
+        <activity
+            android:name="edu.cmu.hcii.ssui.flashcards.StudyListActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.cmu.hcii.ssui.flashcards.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.cmu.hcii.ssui.flashcards.StudyActivity"
+            android:label="@string/study_session_title"
+            android:parentActivityName="edu.cmu.hcii.ssui.flashcards.StudyListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.cmu.hcii.ssui.flashcards.StudyListActivity"
+                       android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        </activity>
+    </application>
+
+</manifest>

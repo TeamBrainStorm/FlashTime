@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flashcards="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/ic_action_shuffle"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_shuffle"/>
+    <item
+        android:id="@+id/action_cardlist"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_cardlist"/>
+
+</menu>

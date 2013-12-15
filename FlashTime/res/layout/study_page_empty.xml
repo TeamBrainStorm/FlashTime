@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/study_page_empty"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/no_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/card_padding"
+        android:layout_marginRight="@dimen/card_padding"
+        android:layout_marginTop="@dimen/card_padding"
+        android:text="@string/no_cards"
+        android:textColor="@color/darker"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/no_card_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/card_padding"
+        android:layout_marginLeft="@dimen/card_padding"
+        android:layout_marginRight="@dimen/card_padding"
+        android:text="@string/no_cards_more"
+        android:textColor="@color/darker"
+        tools:ignore="SelectableText" />
+
+</LinearLayout>

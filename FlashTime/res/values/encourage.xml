@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="encouragement_strings">
+        <item>U R smRt!</item>
+        <item>:)</item>
+        <item>Great job!</item>
+        <item>Wow!</item>
+        <item>Super!</item>
+        <item>Terrible.</item>
+        <item>:)</item>
+        <item>:)</item>
+        <item>:)</item>
+        <item>:)</item>
+        <item>:)</item>
+        <item>Fantastic!</item>
+        <item>Amazing!</item>
+        <item>:)</item>
+        <item>:)</item>
+        <item>:)</item>
+    </string-array>
+
+</resources>
